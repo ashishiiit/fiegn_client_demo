@@ -29,8 +29,9 @@
 	} 
 	
 	Ex. i wan to call "COUPAN-SERVICE" in product so i have created one interface with FiegnClient in product-service project.
-	here i am want to call "COUPAN-SERVICE" in product service so i here i pass COUPAN-SERVICE inside @FeignClient annotation.
-	and create one abstract method whiwhc you want to call from product service(same as which method you want to call of coupan-service).
+	here i am want to call "COUPAN-SERVICE" in product service so i here i have passed COUPAN-SERVICE inside @FeignClient annotation.
+	and create one abstract method which is same as consumer controller method and which you wamt to consume from product service(same as which method 
+	you want  to call of coupan-service).
 
 3. Enable FiegnCLient just like Eanble Eureka client or Eureka server.
 
