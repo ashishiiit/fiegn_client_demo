@@ -1,8 +1,8 @@
 1. configure openfiegn depedency.
 
   <dependency>
-	 <groupId>org.springframework.cloud</groupId>
-	 <artifactId>spring-cloud-starter-openfeign</artifactId>
+     <groupId>org.springframework.cloud</groupId>
+     <artifactId>spring-cloud-starter-openfeign</artifactId>
   </dependency>
   
 2. create service which you want to consume using fiegn clien.
@@ -16,7 +16,7 @@
 			}
 		}
 
-here i have created getCoupan() which i wan to consume in product-service.
+        here i have created getCoupan() which i wan to consume in product-service.
   
 2. create one interface with any name where you want to consume service and give @FeignClient and pass those service  name which you want to call.
 
