@@ -7,14 +7,14 @@
   
 2. create service which you want to consume using fiegn clien.
 
-@RestController
-@RequestMapping("/coupan")
-public class CoupanController {
-	@RequestMapping("/getCoupan")
-	public double getCoupan() {
-		return 10.5;
-	}
-}
+		@RestController
+		@RequestMapping("/coupan")
+		public class CoupanController {
+			@RequestMapping("/getCoupan")
+			public double getCoupan() {
+				return 10.5;
+			}
+		}
 
 here i have created getCoupan() which i wan to consume in product-service.
   
