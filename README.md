@@ -23,8 +23,9 @@
 	@FeignClient("COUPAN-SERVICE")
 	public interface FiegnClient {
 		
-		@RequestMapping("/coupan/getCoupan")   //pass uri of the method which you want to comsune.
-		public double getCoupan();
+		@RequestMapping("/coupan/getCoupan")   //pass uri of the method which you want to comsune. here i want to call getCoupan() of coupan-service
+		public double getCoupan();             // so i have passed exact same path which call getCoupan().
+		
 	
 	} 
 	
